@@ -1,0 +1,9 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day25.feb08.PracticeAnnotation1ExtendsBase"/>
+      <class name="day25.feb08.PracticeAnnotation2ExtendsBase"/>
+    </classes>
+  </test> 
+</suite> 

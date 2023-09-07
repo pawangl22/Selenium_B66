@@ -1,0 +1,12 @@
+<suite name="Suite">
+  <test name="Test">
+   <groups>
+    	<run>
+			<exclude name="smoke"/>
+		</run>
+	</groups>
+    <classes>
+      <class name="day26.feb09.Demo1"/>
+    </classes>
+  </test> 
+</suite>

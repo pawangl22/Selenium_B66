@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test name="Test">
+      <parameter name="city" value="Bengaluru"/>
+        <parameter name="pin" value="560085"/>
+          <classes>
+      <class name="day26.feb09.PracticeParameters"/>
+    </classes>
+  </test>
+</suite>

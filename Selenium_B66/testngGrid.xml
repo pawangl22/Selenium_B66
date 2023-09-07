@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="FFTest">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="remoteURL" value="http://192.168.29.22:4444"/>
+    <classes>
+      <class name="day27.feb10.PracticeGrid3"/>
+    </classes>
+  </test>
+  
+   <test thread-count="5" name="GCTest">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="remoteURL" value="http://192.168.29.22:4444"/>
+    <classes>
+      <class name="day27.feb10.PracticeGrid3"/>
+    </classes>
+  </test>
+</suite>

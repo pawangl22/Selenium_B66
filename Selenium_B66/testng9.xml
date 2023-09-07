@@ -1,0 +1,16 @@
+<suite name="Suite" parallel="tests">
+	<test name="GCTest">
+		<parameter name="remoteURL" value="http://192.168.29.22:4444" />
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="day27.feb10.Demo3" />
+		</classes>
+	</test>
+	<test name="FFTest">
+		<parameter name="remoteURL" value="http://192.168.29.22:4444" />
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="day27.feb10.Demo3" />
+		</classes>
+	</test>
+</suite>
